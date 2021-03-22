@@ -215,6 +215,16 @@
               </router-link>
             </li>
             <li>
+              <router-link to="/participationRequests">
+                <i class="fa fa-envelope"></i> Participation Requests
+                <span
+                  class="badge badge-primary vb"
+                  style="background-color: blue"
+                  >23</span
+                >
+              </router-link>
+            </li>
+            <li>
               <a href="#"
                 ><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span
                   class="fa arrow"

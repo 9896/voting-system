@@ -24,6 +24,8 @@ import ActiveElections from '@/components/pages/ActiveElections'
 import PostActiveElections from '@/components/pages/PostActiveElections'
 import Participants from '@/components/pages/Participants'
 import Participant from '@/components/pages/Participant'
+import ParticipationRequests from '@/components/pages/ParticipationRequests'
+import ParticipationRequest from '@/components/pages/ParticipationRequest'
 
 
 Vue.use(Router)
@@ -56,6 +58,8 @@ const router = new Router({
         {path: '/participants', name:'Participants', component:Participants},
         {path: '/postActiveElections', name:'PostActiveElections', component:PostActiveElections},       
         {path: '/participant', name:'Participant', component:Participant},
+        {path: '/participationRequests', name:'ParticipationRequests', component:ParticipationRequests},
+        {path: '/participationRequest', name:'ParticipationRequest', component:ParticipationRequest}
       ]
     },
     { path: '/public/login', name: 'Login', component: Login }
